@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - ./download:/YouVCR/download
+      - ./config.yaml:/YouVCR/config.yaml
+    command: ["python3", "main.py"]
+    

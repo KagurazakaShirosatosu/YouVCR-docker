@@ -1,0 +1,12 @@
+interval: 60
+channels:
+  - id: UCoSrY_IQQVpmIRZ9Xf-y93g
+    save_to: download/Gura
+  - id: UC1DCedRgGHBdm81E1llLhOQ
+    save_to: download/Pekora
+  - id: UCHsx4Hqa-1ORjQTh9TYDhww
+    save_to: download/Kiara
+  - id: UCdn5BQ06XqgXoAxIhbqw5Rg
+    save_to: download/FBK
+  - id: UCyl1z3jo3XHR1riLFKG5UAg
+    save_to: download/Watson
