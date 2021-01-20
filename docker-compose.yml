@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    build: .
+    image: luobogao/youvcr:latest
     restart: unless-stopped
     volumes:
       - ./download:/YouVCR/download
